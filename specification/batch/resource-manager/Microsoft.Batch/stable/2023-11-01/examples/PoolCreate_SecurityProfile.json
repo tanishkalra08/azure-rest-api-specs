@@ -16,9 +16,9 @@
               "sku": "18_04-lts-gen2",
               "version": "latest"
             },
-            "nodeAgentSKUId": "batch.node.ubuntu 18.04",
+            "nodeAgentSkuId": "batch.node.ubuntu 18.04",
             "securityProfile": {
-              "securityType": "TrustedLaunch",
+              "securityType": "trustedLaunch",
               "encryptionAtHost": true,
               "uefiSettings": {
                 "secureBootEnabled": null,
@@ -69,7 +69,7 @@
               },
               "nodeAgentSkuId": "batch.node.ubuntu 18.04",
               "securityProfile": {
-                "securityType": "TrustedLaunch",
+                "securityType": "trustedLaunch",
                 "encryptionAtHost": true,
                 "uefiSettings": {
                   "vTpmEnabled": false

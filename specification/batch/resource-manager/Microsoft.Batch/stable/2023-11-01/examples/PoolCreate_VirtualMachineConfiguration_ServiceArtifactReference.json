@@ -16,7 +16,7 @@
               "sku": "2019-datacenter-smalldisk",
               "version": "latest"
             },
-            "nodeAgentSKUId": "batch.node.windows amd64",
+            "nodeAgentSkuId": "batch.node.windows amd64",
             "windowsConfiguration":{
               "enableAutomaticUpdates":false
             },

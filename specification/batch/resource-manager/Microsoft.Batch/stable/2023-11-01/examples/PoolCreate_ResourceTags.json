@@ -16,7 +16,7 @@
               "sku": "18_04-lts-gen2",
               "version": "latest"
             },
-            "nodeAgentSKUId": "batch.node.ubuntu 18.04"
+            "nodeAgentSkuId": "batch.node.ubuntu 18.04"
           }
         },
         "resourceTags": {
