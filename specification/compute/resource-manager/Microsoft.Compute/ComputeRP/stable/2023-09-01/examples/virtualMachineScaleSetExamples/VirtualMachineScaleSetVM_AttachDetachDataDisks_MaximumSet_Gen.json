@@ -14,8 +14,7 @@
             "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/diskEncryptionSets/diskEncryptionSet1"
           },
           "caching": "ReadOnly",
-          "writeAcceleratorEnabled": true,
-          "deleteOption": "Delete"
+          "writeAcceleratorEnabled": true
         },
         {
           "lun": 2,
@@ -24,8 +23,7 @@
             "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/diskEncryptionSets/diskEncryptionSet1"
           },
           "caching": "ReadWrite",
-          "writeAcceleratorEnabled": false,
-          "deleteOption": "Detach"
+          "writeAcceleratorEnabled": false
         }
       ],
       "dataDisksToDetach": [
@@ -73,7 +71,6 @@
                 "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/diskEncryptionSets/diskEncryptionSet1"
               }
             },
-            "deleteOption": "Delete",
             "diskSizeGB": 30,
             "writeAcceleratorEnabled": true
           },
@@ -89,7 +86,6 @@
                 "id": "/subscriptions/{subscription-id}/resourceGroups/myResourceGroup/providers/Microsoft.Compute/diskEncryptionSets/diskEncryptionSet1"
               }
             },
-            "deleteOption": "Detach",
             "diskSizeGB": 100,
             "writeAcceleratorEnabled": false
           }
